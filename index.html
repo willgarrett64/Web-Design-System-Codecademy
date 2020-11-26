@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style Sheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#colours">Colours</a></li>
+            <li><a href="#fonts">Fonts</a></li>
+            <li><a href="#text-styles"">Text Styles</a></li>
+            <li><a href="#tables">Tables</a></li>
+            <li><a href="#forms">Forms</a></li>
+        </ul>
+    </nav>
+    
+    
+    <main>
+        <header>
+            <h2 class="lobster-two-font">My Website Style Guide</h2>
+        </header>
+        <div class="styles">
+            <!-- Colour Section-->
+            <section class="container" id="colours">
+                <h3>Colour Palette</h3>
+                <p><em>(hover to reveal)</em></p>
+                <div class="colour-circle-container">
+                    <div class="colour-circle" id="deep-purple">
+                        <p>Deep Purple</p>
+                        <p>rgb(54, 8, 85)</p>
+                    </div>
+                    <div class="colour-circle" id="purple">
+                        <p>Purple</p>
+                        <p>rgb(87, 15, 134)</p>
+                    </div>
+                    <div class="colour-circle" id="light-purple">
+                        <p>Light Purple</p>
+                        <p>rgb(145, 43, 204)</p>
+                    </div>
+                    <div class="colour-circle" id="black">
+                        <p>Black</p>
+                        <p>rgb(20, 20, 20)</p>
+                    </div>
+                    <div class="colour-circle" id="dark-grey">
+                        <p>Dark Grey</p>
+                        <p>rgb(59, 59, 59)</p>
+                    </div>
+                    <div class="colour-circle" id="light-grey">
+                        <p>Light Grey</p>
+                        <p>rgb(102, 102, 102)</p>
+                    </div>
+                    <div class="colour-circle" id="silver">
+                        <p>Silver</p>
+                        <p>rgb(192, 192, 192)</p>
+                    </div>
+                    <div class="colour-circle" id="off-white">
+                        <p>Off White</p>
+                        <p>rgb(240, 240, 255)</p>
+                    </div>
+                    <div class="colour-circle" id="white">
+                        <p>White</p>
+                        <p>rgb(255, 255, 255)</p>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Font Section-->
+            <section class="container" id="fonts">
+                <h3>Fonts</h3>
+                <a target="#" href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap">
+                    <div id="lobster-two-font" class="font-box">
+                        <h4>Lobster Two</h4>
+                        <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="bold-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="italic-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </a>
+                <a target="#" href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;600;700&display=swap">
+                    <div id="oswald-font" class="font-box">
+                        <h4>Oswald</h4>
+                        <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="bold-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="italic-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </a>
+                <a target="#" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap">   <div id="cardo-font" class="font-box">
+                        <h4>Cardo</h4>
+                        <p class="normal-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="bold-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                        <p class="italic-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </a>
+            </section>
+            <section class="container" id="text-styles">
+                <h3>Text Styles</h3>
+                <div class="text-style-box">
+                    <h2>Main Heading Goes Here</h2>
+                    <h3>And a Sub-Heading Beneath</h3>
+                    <p>And then here, is some really amazing text which I spent a long time thinking about and writing. It's written in a serif font because it's easier on the eye, or at least that's what I have been told. What do you think?</p>
+                </div>
+                <div class="text-style-box">
+                    <table id="text-style-table">
+                        <thead>
+                            <tr>
+                                <th>Section</th>
+                                <th>HTML Tag</th>  
+                                <th>Font Family</th>                            
+                                <th>Font Size</th>  
+                                <th>Font Weight</th>                          
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr id="heading-row" class="table-row">
+                                <td class="lobster-two-font">Heading</td>
+                                <td>&lth2&gt</td>
+                                <td>Lobster Two</td>
+                                <td>3rem</td>
+                                <td>700</td>
+                            </tr>
+                            <tr id="sub-heading-row" class="table-row">
+                                <td class="oswald-font">Sub-Heading</td>
+                                <td>&lth3&gt</td>
+                                <td>Oswald</td>
+                                <td>2rem</td>
+                                <td>400</td>
+                            </tr>
+                            <tr id="paragraph-row" class="table-row">
+                                <td class="cardo-font">Paragraph Text</td>
+                                <td>&ltp&gt</td>
+                                <td>Cardo</td>
+                                <td>1.3rem</td>
+                                <td>400</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <p>&#169 William Garrett Designs</p>
+        </footer>
+    </main>
+</body>
+</html>
