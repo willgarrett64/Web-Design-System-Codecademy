@@ -98,14 +98,14 @@ body {
     text-decoration: underline;
 }
 
-
-/*#region Colours*/
-#colours em {
+.container em {
     font-family: Cardo, serif;
     font-size: 1.2rem;
     margin: 5px;
 }
 
+
+/*#region Colours*/
 .colour-circle {
     width: 200px;
     height: 200px;
